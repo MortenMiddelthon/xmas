@@ -229,6 +229,9 @@ void morse (char letter) {
 		case 't':
 		break;
 		case 'u':
+		dashBlink(DOT);
+		dashBlink(DOT);
+		dashBlink(DAT);
 		break;
 		case 'v':
 		break;
